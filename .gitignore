@@ -1,0 +1,82 @@
+# Go
+new-api
+one-api
+vendor/
+relaykit/vendor/
+config/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+go.work
+go.work.sum
+coverage.out
+*.cover
+*.coverprofile
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+.envrc
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Node.js / Frontend
+node_modules/
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/*.local
+
+# Cache & Temp
+.cache/
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Archive
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Secrets & keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+secrets/
+registries.conf
+
+# Local data migration & analysis (contains production data snapshots,
+# reusable ops scripts and planning docs; kept on disk but not for git)
+__pycache__/

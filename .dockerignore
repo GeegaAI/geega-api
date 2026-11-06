@@ -1,0 +1,71 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+coverage.out
+*.cover
+*.coverprofile
+go.work
+go.work.sum
+.cache/
+
+# Database (runtime artifacts)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Node.js / Frontend
+node_modules/
+web/node_modules/
+web/dist-ssr/
+.pnpm-store/
+web/.pnpm-store/
+web/.env
+web/.env.local
+web/.env.*.local
+web/bun.lockb
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# Temp
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Archive
+*.zip
+*.rar
+*.7z
+*.tar.gz
